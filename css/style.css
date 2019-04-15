@@ -1,4 +1,66 @@
 body {
   background-color: #dadada;
-  font-size: 10px;
+  font-size: 1.5em;
 }
+
+h1 {
+  padding-left: 1em;
+  padding-top: 1em;
+}
+
+/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+
+.baku{
+  background-image: url("../images/baku.jpg");
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  width: 100%;
+}
+
+.london{
+  background-image: url("../images/london.png");
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  width: 100%;
+}
+
+.madrid{
+  background-image: url("../images/madrid.jpg");
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  width: 100%;
+}
+
+.rome {
+  background-image: url("../images/rome.jpg");
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  width: 100%;
+}
+
+/* On screens that are 992px wide or less, go from four columns to two columns */
+@media screen and (max-width: 992px) {
+  .column {
+    width: 50%;
+  }
+}
+
+
+
+
+
+
